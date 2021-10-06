@@ -1,0 +1,3 @@
+No of CPUs for ansiblectrl is 2
+Total memory on ansiblectrl in mb is 3786
+current kernel on ansiblectrl  is 3.10.0-1160.42.2.el7.x86_64

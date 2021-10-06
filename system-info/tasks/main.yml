@@ -1,0 +1,12 @@
+---
+# tasks file for system-info
+- name: show jinja template results
+  debug:
+    msg: "{{ lookup('template', './system_info.j2') }}"
+- name: display role variables
+  debug:
+    msg: "{{ user_name }}"
+- name: copying template results to /home/haris_kartik/ansible
+  template:
+          src: system_info.j2
+          dest: /home/haris_kartik/ansible/system-info.txt
